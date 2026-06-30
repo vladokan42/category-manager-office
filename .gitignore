@@ -1,0 +1,23 @@
+# База данных (симлинк на основную)
+data/category.db
+data/
+
+# Журналы и аудит
+audit/
+access_attempts.log
+
+# Входящие/исходящие файлы
+incoming/
+outgoing/
+
+# Сессионные логи
+memory/202[0-9]-*.md
+memory/.dreams/
+memory/dreaming/
+
+# Системные файлы OpenClaw
+.openclaw/
+openclaw-workspace-state.json
+
+# Git
+.git/
